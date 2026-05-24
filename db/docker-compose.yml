@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    container_name: powerlift_postgres
+    environment:
+      POSTGRES_DB: powerlift_db
+      POSTGRES_USER: powerlift_user
+      POSTGRES_PASSWORD: powerlift_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - powerlift_pgdata:/var/lib/postgresql/data
+volumes:
+  powerlift_pgdata:

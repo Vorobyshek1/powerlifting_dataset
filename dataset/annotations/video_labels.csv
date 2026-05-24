@@ -1,0 +1,11 @@
+video_id,filename,exercise,quality_label,issue_label,manual_comment,annotation_file,fps,total_frames,duration_sec,width,height,split,source_type
+vid_001,squat_good_01.mp4,squat,good,correct,хороший пример приседа: достаточная глубина и фиксация,sample_pose/squat_good_01.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_002,squat_good_02.mp4,squat,good,correct,хороший пример приседа: повторение выполнено без грубых ошибок,sample_pose/squat_good_02.csv,30.0,240,8.0,960,540,test,synthetic_demo
+vid_003,squat_bad_01_shallow_depth.mp4,squat,bad,shallow_depth,плохой пример приседа: недостаточная глубина,sample_pose/squat_bad_01_shallow_depth.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_004,squat_bad_02_forward_lean.mp4,squat,bad,forward_lean,плохой пример приседа: сильный наклон корпуса,sample_pose/squat_bad_02_forward_lean.csv,30.0,240,8.0,960,540,test,synthetic_demo
+vid_005,bench_good_01.mp4,bench,good,correct,хороший пример жима: достаточная амплитуда и фиксация,sample_pose/bench_good_01.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_006,bench_bad_01_short_range.mp4,bench,bad,short_range,плохой пример жима: неполная амплитуда,sample_pose/bench_bad_01_short_range.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_007,bench_bad_02_hip_rise.mp4,bench,bad,hip_rise,плохой пример жима: смещение таза,sample_pose/bench_bad_02_hip_rise.csv,30.0,240,8.0,960,540,test,synthetic_demo
+vid_008,deadlift_good_01.mp4,deadlift,good,correct,хороший пример тяги: локаут выполнен,sample_pose/deadlift_good_01.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_009,deadlift_bad_01_no_lockout.mp4,deadlift,bad,no_lockout,плохой пример тяги: неполное выпрямление,sample_pose/deadlift_bad_01_no_lockout.csv,30.0,240,8.0,960,540,train,synthetic_demo
+vid_010,deadlift_bad_02_bar_far.mp4,deadlift,bad,bar_far,плохой пример тяги: штанга далеко от линии стопы,sample_pose/deadlift_bad_02_bar_far.csv,30.0,240,8.0,960,540,test,synthetic_demo

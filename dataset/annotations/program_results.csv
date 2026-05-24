@@ -1,0 +1,11 @@
+video_id,filename,manual_exercise,auto_exercise,manual_quality,manual_issue,program_score,program_status,program_issues,reps_found,pose_found_ratio,visibility,body_side
+vid_001,squat_good_01.mp4,squat,squat,good,correct,100,хорошо,основные критерии выполнены,2,1.0,0.95,left
+vid_002,squat_good_02.mp4,squat,squat,good,correct,100,хорошо,основные критерии выполнены,2,1.0,0.95,left
+vid_003,squat_bad_01_shallow_depth.mp4,squat,deadlift,bad,shallow_depth,65,нужно исправить,глубина приседа недостаточная или плохо видна; есть обратное движение во время подъема,1,1.0,0.95,left
+vid_004,squat_bad_02_forward_lean.mp4,squat,squat,bad,forward_lean,65,нужно исправить,в верхней точке колени не полностью выпрямлены; корпус сильно наклонен вперед; есть обратное движение во время подъема,1,1.0,0.95,left
+vid_005,bench_good_01.mp4,bench,bench,good,correct,100,хорошо,основные критерии выполнены,2,1.0,0.95,left
+vid_006,bench_bad_01_short_range.mp4,bench,bench,bad,short_range,70,есть небольшие замечания,амплитуда жима недостаточная или касание груди не видно; есть обратное движение во время подъема,1,1.0,0.95,left
+vid_007,bench_bad_02_hip_rise.mp4,bench,bench,bad,hip_rise,75,есть небольшие замечания,таз заметно смещается во время жима; траектория кисти сильно смещается по горизонтали,2,1.0,0.95,left
+vid_008,deadlift_good_01.mp4,deadlift,deadlift,good,correct,100,хорошо,основные критерии выполнены,2,1.0,0.95,left
+vid_009,deadlift_bad_01_no_lockout.mp4,deadlift,deadlift,bad,no_lockout,65,нужно исправить,нет полного разгибания таза в конце тяги; видно заметное обратное движение снаряда,1,1.0,0.95,left
+vid_010,deadlift_bad_02_bar_far.mp4,deadlift,deadlift,bad,bar_far,80,есть небольшие замечания,в начале движения корпус слишком наклонен; штанга находится далеко от линии стопы,2,1.0,0.95,left

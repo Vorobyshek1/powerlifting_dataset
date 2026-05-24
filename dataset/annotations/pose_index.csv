@@ -1,0 +1,11 @@
+filename,pose_csv,format,landmarks
+squat_good_01.mp4,sample_pose/squat_good_01.csv,wide_landmark_table,33
+squat_good_02.mp4,sample_pose/squat_good_02.csv,wide_landmark_table,33
+squat_bad_01_shallow_depth.mp4,sample_pose/squat_bad_01_shallow_depth.csv,wide_landmark_table,33
+squat_bad_02_forward_lean.mp4,sample_pose/squat_bad_02_forward_lean.csv,wide_landmark_table,33
+bench_good_01.mp4,sample_pose/bench_good_01.csv,wide_landmark_table,33
+bench_bad_01_short_range.mp4,sample_pose/bench_bad_01_short_range.csv,wide_landmark_table,33
+bench_bad_02_hip_rise.mp4,sample_pose/bench_bad_02_hip_rise.csv,wide_landmark_table,33
+deadlift_good_01.mp4,sample_pose/deadlift_good_01.csv,wide_landmark_table,33
+deadlift_bad_01_no_lockout.mp4,sample_pose/deadlift_bad_01_no_lockout.csv,wide_landmark_table,33
+deadlift_bad_02_bar_far.mp4,sample_pose/deadlift_bad_02_bar_far.csv,wide_landmark_table,33
