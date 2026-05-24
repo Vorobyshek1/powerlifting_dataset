@@ -1,0 +1,36 @@
+{
+  "video_id": "squat_bad_01_shallow_depth",
+  "exercise": "squat",
+  "exercise_ru": "Присед",
+  "quality_label": "bad",
+  "quality_label_ru": "плохой",
+  "title_ru": "Присед плохой пример 01: недостаточная глубина",
+  "source_type": "синтетический учебный ролик, созданный для разметки и проверки прототипа",
+  "fps": 24,
+  "duration_sec": 6.0,
+  "frames": 144,
+  "resolution": {
+    "width": 640,
+    "height": 360
+  },
+  "repetitions": 2,
+  "camera_view": "боковой учебный ракурс",
+  "expected_score": 45,
+  "expected_status": "плохой пример с грубыми ошибками",
+  "manual_errors": [
+    "недостаточная глубина"
+  ],
+  "criteria_used": [
+    "глубина: таз ниже уровня колена или достаточный минимальный угол колена",
+    "верхняя фиксация: колени разогнуты в начале и конце",
+    "контроль корпуса: нет чрезмерного наклона вперед",
+    "подъем: нет заметного обратного движения после нижней точки"
+  ],
+  "files": {
+    "video": "Присед/плохие/squat_bad_01_shallow_depth/squat_bad_01_shallow_depth.mp4",
+    "pose_landmarks": "Присед/плохие/squat_bad_01_shallow_depth/pose_landmarks.csv",
+    "frame_annotations": "Присед/плохие/squat_bad_01_shallow_depth/frame_annotations.csv",
+    "repetition_annotations": "Присед/плохие/squat_bad_01_shallow_depth/repetition_annotations.csv"
+  },
+  "notes": "Разметка учебная: видео сгенерировано по координатам скелета, поэтому pose_landmarks.csv является эталонной разметкой, а не результатом ручной покадровой разметки реального соревнования."
+}

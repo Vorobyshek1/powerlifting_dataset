@@ -1,0 +1,37 @@
+{
+  "video_id": "bench_bad_01_partial_range",
+  "exercise": "bench",
+  "exercise_ru": "Жим",
+  "quality_label": "bad",
+  "quality_label_ru": "плохой",
+  "title_ru": "Жим плохой пример 01: неполная амплитуда",
+  "source_type": "синтетический учебный ролик, созданный для разметки и проверки прототипа",
+  "fps": 24,
+  "duration_sec": 6.0,
+  "frames": 144,
+  "resolution": {
+    "width": 640,
+    "height": 360
+  },
+  "repetitions": 2,
+  "camera_view": "боковой учебный ракурс",
+  "expected_score": 42,
+  "expected_status": "плохой пример с грубыми ошибками",
+  "manual_errors": [
+    "неполная амплитуда",
+    "касание груди не подтверждается"
+  ],
+  "criteria_used": [
+    "амплитуда: локоть сгибается достаточно глубоко",
+    "верхняя фиксация: руки выпрямлены в конце",
+    "положение таза: нет явного отрыва или подъема таза",
+    "траектория: нет сильного горизонтального разброса кисти"
+  ],
+  "files": {
+    "video": "Жим/плохие/bench_bad_01_partial_range/bench_bad_01_partial_range.mp4",
+    "pose_landmarks": "Жим/плохие/bench_bad_01_partial_range/pose_landmarks.csv",
+    "frame_annotations": "Жим/плохие/bench_bad_01_partial_range/frame_annotations.csv",
+    "repetition_annotations": "Жим/плохие/bench_bad_01_partial_range/repetition_annotations.csv"
+  },
+  "notes": "Разметка учебная: видео сгенерировано по координатам скелета, поэтому pose_landmarks.csv является эталонной разметкой, а не результатом ручной покадровой разметки реального соревнования."
+}

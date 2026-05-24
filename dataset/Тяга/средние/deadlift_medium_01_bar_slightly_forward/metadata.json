@@ -1,0 +1,36 @@
+{
+  "video_id": "deadlift_medium_01_bar_slightly_forward",
+  "exercise": "deadlift",
+  "exercise_ru": "Тяга",
+  "quality_label": "medium",
+  "quality_label_ru": "средний",
+  "title_ru": "Тяга средний пример 01: штанга слегка впереди",
+  "source_type": "синтетический учебный ролик, созданный для разметки и проверки прототипа",
+  "fps": 24,
+  "duration_sec": 6.0,
+  "frames": 144,
+  "resolution": {
+    "width": 640,
+    "height": 360
+  },
+  "repetitions": 2,
+  "camera_view": "боковой учебный ракурс",
+  "expected_score": 72,
+  "expected_status": "средний пример с замечаниями",
+  "manual_errors": [
+    "штанга немного далеко от линии стопы"
+  ],
+  "criteria_used": [
+    "локаут: таз и колени разогнуты в верхней точке",
+    "положение снаряда: кисть как приближение грифа не уходит далеко от стопы",
+    "подъем: нет обратного движения снаряда",
+    "корпус: нет чрезмерного наклона и потери позиции"
+  ],
+  "files": {
+    "video": "Тяга/средние/deadlift_medium_01_bar_slightly_forward/deadlift_medium_01_bar_slightly_forward.mp4",
+    "pose_landmarks": "Тяга/средние/deadlift_medium_01_bar_slightly_forward/pose_landmarks.csv",
+    "frame_annotations": "Тяга/средние/deadlift_medium_01_bar_slightly_forward/frame_annotations.csv",
+    "repetition_annotations": "Тяга/средние/deadlift_medium_01_bar_slightly_forward/repetition_annotations.csv"
+  },
+  "notes": "Разметка учебная: видео сгенерировано по координатам скелета, поэтому pose_landmarks.csv является эталонной разметкой, а не результатом ручной покадровой разметки реального соревнования."
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "bench_medium_01_short_pause",
+  "exercise": "bench",
+  "exercise_ru": "Жим",
+  "quality_label": "medium",
+  "quality_label_ru": "средний",
+  "title_ru": "Жим средний пример 01: короткая пауза",
+  "source_type": "синтетический учебный ролик, созданный для разметки и проверки прототипа",
+  "fps": 24,
+  "duration_sec": 6.0,
+  "frames": 144,
+  "resolution": {
+    "width": 640,
+    "height": 360
+  },
+  "repetitions": 2,
+  "camera_view": "боковой учебный ракурс",
+  "expected_score": 73,
+  "expected_status": "средний пример с замечаниями",
+  "manual_errors": [
+    "пауза внизу выражена слабо"
+  ],
+  "criteria_used": [
+    "амплитуда: локоть сгибается достаточно глубоко",
+    "верхняя фиксация: руки выпрямлены в конце",
+    "положение таза: нет явного отрыва или подъема таза",
+    "траектория: нет сильного горизонтального разброса кисти"
+  ],
+  "files": {
+    "video": "Жим/средние/bench_medium_01_short_pause/bench_medium_01_short_pause.mp4",
+    "pose_landmarks": "Жим/средние/bench_medium_01_short_pause/pose_landmarks.csv",
+    "frame_annotations": "Жим/средние/bench_medium_01_short_pause/frame_annotations.csv",
+    "repetition_annotations": "Жим/средние/bench_medium_01_short_pause/repetition_annotations.csv"
+  },
+  "notes": "Разметка учебная: видео сгенерировано по координатам скелета, поэтому pose_landmarks.csv является эталонной разметкой, а не результатом ручной покадровой разметки реального соревнования."
+}

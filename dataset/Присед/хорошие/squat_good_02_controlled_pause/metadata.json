@@ -1,0 +1,34 @@
+{
+  "video_id": "squat_good_02_controlled_pause",
+  "exercise": "squat",
+  "exercise_ru": "Присед",
+  "quality_label": "good",
+  "quality_label_ru": "хороший",
+  "title_ru": "Присед хороший пример 02: контролируемая глубина",
+  "source_type": "синтетический учебный ролик, созданный для разметки и проверки прототипа",
+  "fps": 24,
+  "duration_sec": 6.0,
+  "frames": 144,
+  "resolution": {
+    "width": 640,
+    "height": 360
+  },
+  "repetitions": 2,
+  "camera_view": "боковой учебный ракурс",
+  "expected_score": 92,
+  "expected_status": "зачетный учебный пример",
+  "manual_errors": [],
+  "criteria_used": [
+    "глубина: таз ниже уровня колена или достаточный минимальный угол колена",
+    "верхняя фиксация: колени разогнуты в начале и конце",
+    "контроль корпуса: нет чрезмерного наклона вперед",
+    "подъем: нет заметного обратного движения после нижней точки"
+  ],
+  "files": {
+    "video": "Присед/хорошие/squat_good_02_controlled_pause/squat_good_02_controlled_pause.mp4",
+    "pose_landmarks": "Присед/хорошие/squat_good_02_controlled_pause/pose_landmarks.csv",
+    "frame_annotations": "Присед/хорошие/squat_good_02_controlled_pause/frame_annotations.csv",
+    "repetition_annotations": "Присед/хорошие/squat_good_02_controlled_pause/repetition_annotations.csv"
+  },
+  "notes": "Разметка учебная: видео сгенерировано по координатам скелета, поэтому pose_landmarks.csv является эталонной разметкой, а не результатом ручной покадровой разметки реального соревнования."
+}
